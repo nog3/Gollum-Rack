@@ -37,6 +37,7 @@ GEM
       multi_json (>= 1.5)
     mime-types (1.25.1)
     mini_portile (0.5.2)
+    mojo_magick (0.5.4)
     multi_json (1.8.2)
     multipart-post (1.2.0)
     nokogiri (1.6.0)
@@ -64,9 +65,13 @@ GEM
     pygments.rb (0.5.4)
       posix-spawn (~> 0.3.6)
       yajl-ruby (~> 1.1.0)
+    qr4r (0.4.0)
+      mojo_magick
+      rqrcode
     rack (1.5.2)
     rack-protection (1.5.1)
       rack
+    rqrcode (0.4.2)
     sanitize (2.0.6)
       nokogiri (>= 1.4.4)
     sinatra (1.4.4)
@@ -87,3 +92,4 @@ DEPENDENCIES
   omniauth
   omniauth-google-oauth2
   omnigollum
+  qr4r
